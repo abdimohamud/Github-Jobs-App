@@ -1,0 +1,31 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.prose a {
+  @apply underline;
+}
+
+.description a {
+  @apply text-violet;
+}
+
+.how-to-apply a {
+  @apply text-white;
+}
+
+.how-to-apply strong {
+  @apply text-white;
+}
+
+.dark .prose strong,
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4,
+.dark .prose h5,
+.dark .prose h6 {
+  @apply text-white;
+}
