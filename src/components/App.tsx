@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import Link from 'next/link'
 import { ReactNode, useEffect, useState } from 'react'
-import { ReactQueryDevtools } from 'react-query-devtools'
+// import { ReactQueryDevtools } from 'react-query-devtools'
 
 export default function App({ children }: { children: ReactNode }) {
   const [darkMode, setDarkModeState] = useState(false)
@@ -45,7 +45,7 @@ export default function App({ children }: { children: ReactNode }) {
                   fillRule='nonzero'
                 />
               </svg> */}
-              <p className="title">Github Jobs <i className="fab fa-github"></i></p>
+              <p className="title dark:text-white">Github Jobs <i className="fab fa-github dark:text-white"></i></p>
             </Link>
             <div className='flex items-center ml-auto space-x-4'>
               <svg width='20' height='19' xmlns='http://www.w3.org/2000/svg'>
@@ -172,7 +172,7 @@ export default function App({ children }: { children: ReactNode }) {
           </div>
         </footer>
       </div>
-      <ReactQueryDevtools />
+      {/* <ReactQueryDevtools /> */}
     </>
   )
 }

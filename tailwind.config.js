@@ -17,13 +17,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        violet: '#5964E0',
-        'light-violet': '#939BF4',
+        violet: '#32CD32',
+        'light-violet': '#98e698',
         'very-dark-blue': '#19202D',
         midnight: '#121721',
         'light-grey': '#F4F6F8',
         grey: '#9DAEC2',
-        'dark-grey': '#6E8098',
+        'dark-grey': '#98e698',
         'normal-grey': '#f2f2f2',
         'checkbox-dark': 'rgba(255, 255, 255, 0.1)',
         logo: {
