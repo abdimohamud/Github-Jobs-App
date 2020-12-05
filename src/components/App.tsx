@@ -6,6 +6,7 @@ import { ReactQueryDevtools } from 'react-query-devtools'
 export default function App({ children }: { children: ReactNode }) {
   const [darkMode, setDarkModeState] = useState(false)
   const MODE = 'githubJobsColorMode'
+ 
 
   const setDarkMode = (value: boolean) => {
     if (value) {
@@ -44,7 +45,7 @@ export default function App({ children }: { children: ReactNode }) {
                   fillRule='nonzero'
                 />
               </svg> */}
-              Github
+              <p className="title">Github Jobs <i className="fab fa-github"></i></p>
             </Link>
             <div className='flex items-center ml-auto space-x-4'>
               <svg width='20' height='19' xmlns='http://www.w3.org/2000/svg'>

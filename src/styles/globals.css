@@ -19,7 +19,11 @@
 .how-to-apply strong {
   @apply text-white;
 }
-
+.title {
+  font-size: 2rem;
+  font-family: "system-ui";
+  font-weight: 700;
+}
 .dark .prose strong,
 .dark .prose h1,
 .dark .prose h2,

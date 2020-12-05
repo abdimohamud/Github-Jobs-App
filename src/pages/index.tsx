@@ -12,6 +12,7 @@ export default function Home() {
 
   const modalRef = useRef()
 
+
   const [final, setFinal] = useState({
     finalDescription: '',
     finalLocation: '',
