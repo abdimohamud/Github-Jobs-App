@@ -26,7 +26,7 @@ export default function Home() {
     fetch(
       `https://api.allorigins.win/get?url=${encodeURIComponent(
         `https://jobs.github.com/positions.json?page=${page}&description=${final.finalDescription}&location=${final.finalLocation}&full_time=${final.finalFullTime}`
-      )}`, {mode:'cors'}
+      )}`, {mode:'no-cors'}
     )
       .then((res) => res.json())
       .then((data) => JSON.parse(data.contents))
